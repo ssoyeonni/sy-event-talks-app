@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+.talk-card, .break-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.talk-card h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.talk-card p {
+    margin: 5px 0;
+}
+
+.talk-card .speakers, .talk-card .category {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.talk-card .description {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.break-card {
+    background-color: #e2f0fb;
+    border-left: 5px solid #007bff;
+}
+
+.break-card h2 {
+    color: #007bff;
+    margin-top: 0;
+}
